@@ -1,0 +1,3 @@
+Id,Name,Hp,Attack,Energy,Defend,Steps,Model
+Id,名字,生命值,攻击值,精力值,随从栏位,可行动步数,玩家的模型路径
+401,将雨寄微阳,40,3,10,3,10,

@@ -1,0 +1,3 @@
+Id,Name,Hp,Attack,Defend,Model
+Id,名字,血量,攻击力,防御盾,怪物的模型路径
+301,XMU,1,1,1,
