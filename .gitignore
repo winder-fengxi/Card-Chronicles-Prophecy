@@ -1,0 +1,30 @@
+# Unity generated
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ibrary/
+[Pp]roj(ekteinstellungen|Settings)/
+[Bb]uilds/
+[Ll]ogs/
+[Oo]bj/
+[Oo]utput/
+[Uu]serData/
+[Ii]mportSettings/
+[Sc]reenCaptures/
+[Rr]eports/
+[Aa]ssets/AssetStoreTools*
+
+# Visual Studio
+.vs2017/
+.vs2019/
+.vs2022/
+
+
+# Visual Studio Code
+.vscode/
+*.sln
+*.csproj
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
