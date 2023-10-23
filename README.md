@@ -16,14 +16,18 @@ DBG+rougelike
 
 ## 开发时间表  
 
-第1周 (10月9日 - 10月15日)  
-• 任务1： 配置开发环境和版本管理工具  
-• 任务2： 完善游戏流程  
-• 任务3： 确定游戏美术风格  
-第2周 (10月16日 - 10月22日)  
-• 任务1： 存档系统的设计和规划  
-• 任务2： 存档数据的存储和管理  
-• 任务3： 存档创建和加载的界面设计和实现  
+>第1周 (10月9日 - 10月15日)  
+>
+> - 任务1： 配置开发环境和版本管理工具  
+> - 任务2： 完善游戏流程  
+> - 任务3： 确定游戏美术风格  
+>
+>第2周 (10月16日 - 10月22日)  
+>
+> - • 任务1： 存档系统的设计和规划  
+> - • 任务2： 存档数据的存储和管理  
+> - • 任务3： 存档创建和加载的界面设计和实现  
+>
 第3周 (10月23日 - 10月29日)  
 • 任务1： 地图界面和关卡设计的规划  
 • 任务2： 地图场景的建模和渲染  
@@ -57,14 +61,14 @@ DBG+rougelike
 
 ## 文件目录
 
-[Chen_sample](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Chen_sample "陈的unity项目示例")  
-[Resoure](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource "各种游戏内美术资源")  
-  [Fonts](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/Fonts "游戏内字体，预览可看出字体类型")  
-  [cards](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards "卡牌资源")  
-    [Card data](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20data "卡牌内容描述及数据")  
-    [Card front](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20front "各类卡的卡面")  
-    [Card picture](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20picture "卡牌原画")  
-    [effect](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Effect "卡牌影响效果")
+>[Chen_sample](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Chen_sample "陈的unity项目示例")  
+>[Resoure](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource "各种游戏内美术资源")  
+>>[Fonts](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/Fonts "游戏内字体，预览可看出字体类型")  
+>>[cards](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards "卡牌资源")  
+>>>[Card data](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20data "卡牌内容描述及数据")  
+>>>[Card front](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20front "各类卡的卡面")  
+>>>[Card picture](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20picture "卡牌原画")  
+>>>[effect](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Effect "卡牌影响效果")
 
 ## 其他注意事项  
 
