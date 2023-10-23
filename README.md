@@ -55,6 +55,17 @@ DBG+rougelike
  hyc lby：策划，流程，数值  
  zjf，csw：程序，bug  
 
+## 文件目录
+
+[Chen_sample](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Chen_sample "陈的unity项目示例")  
+[Resoure](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource "各种游戏内美术资源")  
+  [Fonts](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/Fonts "游戏内字体，预览可看出字体类型")  
+  [cards](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards "卡牌资源")  
+    [Card data](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20data "卡牌内容描述及数据")  
+    [Card front](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20front "各类卡的卡面")  
+    [Card picture](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Card%20picture "卡牌原画")  
+    [effect](https://github.com/winder-fengxi/Card-Chronicles-Prophecy/tree/main/Resource/cards/Effect "卡牌影响效果")
+
 ## 其他注意事项  
 
 我看不懂文件分类，就把项目文件全丢到另一个分支里了。  
