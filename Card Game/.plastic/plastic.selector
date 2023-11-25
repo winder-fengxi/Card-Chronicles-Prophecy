@@ -1,0 +1,4 @@
+repository "Card Game@c-0147@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

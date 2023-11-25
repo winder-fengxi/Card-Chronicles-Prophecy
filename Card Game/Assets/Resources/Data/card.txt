@@ -1,0 +1,22 @@
+Id	Name	Script	Type	Des	BgIcon	Icon	Expend	ArgO	Effects
+唯一的标识	名称	卡牌添加的脚本	卡牌类型的Id	描述	卡牌的背景图资源的路径	图标资源的路径	消耗的费用	属性值	特效
+1000	普通攻击	AttackCardItem	10001	普通的攻击，选定一名敌方造成4点伤害	Icon/BlueCard	Icon/sword_03e	2	4	Effects/GreenBloodExplosion
+1001	防御1	DefendCard	10002	增加	Icon/GreenCard	Icon/armor_01a	1	2	Effects/SpinZoneBlue
+1002	无中生有	AddCard	10003	抽卡	Icon/RedCard	Icon/wood_01a	0	2	Effects/SmokeExplosionDark
+1003	大雨瓢泼	RainCard	10004	能使得场上下起大雨。	Icon/RedCard	Icon/SpellIcon	2	2	Effects/RainHard
+1004	灾厄散去	DisasterDisCard	10005	去除场上正在持续的天气	Icon/RedCard	Icon/arrow_03e	2	2	Effects/StarBurst
+1005	大雾弥漫	FogCard	10006	使得场上生起大雾，无法看到敌人	Icon/RedCard	Icon/book_01a	2	2	Effects/FogLively
+1006	振奋人心	EncouragCard	10007	能使得该回合内己方攻击值整体提高1点	Icon/GreenCard	Icon/book_01g	2	2	Effects/HeartExplosion
+1007	元神启动	GodCard	10008	主角使自己体内的元神启动，抽取一张牌，若为能力牌，则元神得以共鸣，本回合精力+3	Icon/GreenCard	Icon/book_02f	2	2	Effects/StarBurst
+1008	圣歌	HymnCard	10009	开始吟唱圣歌，使得己方整体恢复3点血量/选定一名施加四层回血，只能由特定随从释放。	Icon/GreyCard	Icon/boots_01a	2	2	Effects/MusicalNotes
+1009	解！	SolutionCard	10010	任选一名debuff的己方，解除其身上的所有buff/debuff（对于环境类debuff，只有当前回合可以解除）	Icon/GreenCard	Icon/bone01a	2	2	Effects/StarBurst
+1010	秽土转生之术	ReincarnationCard	10011	从废牌堆中任选一名随从卡并将其复活至场上（仍占用随从位）	Icon/GreyCard	Icon/bow_01a	2	2	Effects/HealOnce
+1011	分身之术	SeparationCard	10012	选择任意一名己方召唤两个分身，其攻击叠加且消耗精力变成双倍（只消耗一张卡），仅持续一回合。并且受到自己随从位的限制。	Icon/GreyCard	Icon/coin_05d	2	2	Effects/StarBurst
+1012	献祭	SacrificeCard	10013	献祭一名随从，并将其所剩血量值转移到所选的己方身上.	Icon/RedCard	Icon/HealthIcon	2	2	Effects/SpinZoneBlue
+1013	回旋打击	RoundaboutCard	10014	大范围攻击，对场上所有敌人造成3点伤害	Icon/BlueCard	Icon/staff_01a	2	2	Effects/SmokeExplosionDark
+1014	致残打击	DisabilityCard	10015		Icon/BlueCard	Icon/AttackIcon	2	2	Effects/NukeVerticalExplosionFire
+1015	召唤雷电	ThunderCard	10016	任选一名敌方造成5点伤害，若场上有“大雨瓢泼”正在使用时，将不受其影响，可以任选两名敌方且攻击力翻倍。	Icon/BlueCard	Icon/crystal_01j	2	2	Effects/ElectricDeathYellow
+1016	全力一击	FBlowCard	10017	重锤砸下，对一名敌人造成8点伤害	Icon/BlueCard	Icon/sword_01a	2	2	Effects/ExplosionFireballFire
+1017	献祭攻击	SacrificialAttackCard	10018	消耗自己（发动进攻的单位）2点血量，对任意一名敌方造成6点伤害。	Icon/BlueCard	Icon/candle_01a	2	2	Effects/CartoonyBodySlam
+1018	火烧	BurnCard	10019	将火弹扔向一名敌方，对其施加四层灼烧效果。	Icon/BlueCard	Icon/spellbook_03e	2	2	Effects/TallRedFire
+1019	断头台	GuillotineCard	10020	若任意一名敌方剩余血量少于30，则直接将其击败，并使得敌方整体进入恐惧状态，整体添加易伤debuff，持续2回合	Icon/BlueCard	Icon/potion_01a	2	2	Effects/BloodSplatDirectionalCardboard
