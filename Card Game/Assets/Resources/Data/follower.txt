@@ -1,0 +1,7 @@
+Id	Name	Hp	Attack	Defend	Model
+Id	名字	血量	攻击力	防御盾	随从的模型路径
+10001	小火龙	20	2	0	Model/Charmander
+10002	龙龟	45	3	0	Model/DragonTurtle
+10003	忍者	20	5	0	Model/Ninja
+10004	熊猫	45	5	0	Model/Panada
+10005	天使	20	0	0	Model/Angel
