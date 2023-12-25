@@ -13,6 +13,7 @@ public class Fight_Fail : FightUnit
         Debug.Log("失败了");
         FightManager.Instance.StopAllCoroutines();
         //显失败界面石到这里的小伙伴可以自已作
+        SceneManager.LoadScene("Fail");
         UIManager.Instance.ShowTip("游戏失败", Color.red, delegate () { });
         DelayDestroy3();
     }
