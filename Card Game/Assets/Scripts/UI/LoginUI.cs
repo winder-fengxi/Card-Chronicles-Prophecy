@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 //开始界面（要继承UIBase）
 public class LoginUI : UIBase 
@@ -14,8 +15,11 @@ public class LoginUI : UIBase
         //退出游戏
         Register("bg/quitBtn").onClick = onQuitGameBtn;
     }
-
-    private void onStartGameBtn(GameObject obj, PointerEventData pData)
+    public void openMap(GameObject obj, PointerEventData pData)
+    {
+        SceneManager.LoadScene("Map");
+    }
+    public void onStartGameBtn(GameObject obj, PointerEventData pData)
     {
         //关闭login界面
         Hide();
@@ -24,7 +28,7 @@ public class LoginUI : UIBase
         FightManager.Instance.ChangeType(FightType.Init);
     }
 
-    private void onQuitGameBtn(GameObject obj, PointerEventData pData)
+    public void onQuitGameBtn(GameObject obj, PointerEventData pData)
     {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;

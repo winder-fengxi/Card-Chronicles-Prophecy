@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        Init();
     }
     //初始化
     public void Init()
@@ -22,6 +23,11 @@ public class AudioManager : MonoBehaviour
     {
         //加载bgm声音剪辑
         AudioClip clip = Resources.Load<AudioClip>("Sounds/BGM/" + name);
+        if (clip == null)
+        {
+            Debug.LogError("Failed to load audio clip: " + name);
+        }
+
         bgmSource.clip = clip;//设置音频
         bgmSource.loop = isLoop;//是否循环
         bgmSource.Play();

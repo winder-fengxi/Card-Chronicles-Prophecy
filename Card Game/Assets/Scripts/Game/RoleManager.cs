@@ -8,6 +8,7 @@ public class RoleManager
 {
     public static RoleManager Instance = new RoleManager();
     public List<string> cardList;//存储拥有的卡牌的id
+    public int coin = 100;
     public void Init()
     {
         cardList = new List<string>();
