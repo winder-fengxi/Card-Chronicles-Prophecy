@@ -30,6 +30,6 @@ public class Fight_Win :FightUnit
         //    Debug.Log(nowTime);
         //}
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("map");
     }
 }
